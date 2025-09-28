@@ -1,7 +1,7 @@
 phone_book = [
-    {'name': 'Marcus Aurelius', 'phone': '+380445554433'},
-    {'name': 'Іван Петренко', 'phone': '+380501234567'},
-    {'name': 'Марія Іваненко', 'phone': '+380679876543'}
+    {'name': 'Кирило Кузнецов', 'phone': '+380445554433'},
+    {'name': 'Тревіс Скотт', 'phone': '+380501234567'},
+    {'name': 'Клавдія Петрівна', 'phone': '+380679876543'}
 ]
 
 def find_phone_by_name(name):
@@ -11,13 +11,13 @@ def find_phone_by_name(name):
             return person['phone']
     return None
 
-phone = find_phone_by_name('Іван Петренко')
-print('Телефон Івана:', phone)
+phone = find_phone_by_name('Тревіс Скотт')
+print('Телефон Тревіса:', phone)
 
 phone_hash = {
-    'Marcus Aurelius': '+380445554433',
-    'Іван Петренко': '+380501234567',
-    'Марія Іваненко': '+380679876543'
+    'Кирило Кузнецов': '+380445554433',
+    'Тревіс Скотт': '+380501234567',
+    'Клавдія Петрівна': '+380679876543'
 }
 
 def find_phone_by_name_hash(name):
@@ -26,5 +26,5 @@ def find_phone_by_name_hash(name):
     else:
         return None
 
-phone2 = find_phone_by_name_hash('Марія Іваненко')
-print('Телефон Марії:', phone2)
+phone2 = find_phone_by_name_hash('Клавдія Петрівна')
+print('Телефон Клавдії:', phone2)

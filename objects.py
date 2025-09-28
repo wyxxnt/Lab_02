@@ -1,9 +1,9 @@
 def fn():
-    obj1 = {'name': 'Іван'}
-    obj2 = {'name': 'Петро'}
+    obj1 = {'name': 'Тревіс Скотт'}
+    obj2 = {'name': 'Клавдія Петрівна'}
     
-    obj1['name'] = 'Микола'
-    obj2['name'] = 'Сергій'
+    obj1['name'] = 'Кирило Кузнецов'
+    obj2['name'] = 'Тревіс Скотт'
     
     print('obj1:', obj1)
     print('obj2:', obj2)
@@ -18,5 +18,5 @@ def create_user(name, city):
     user['city'] = city
     return user
 
-user = create_user('Marcus Aurelius', 'Roma')
+user = create_user('Клавдія Петрівна', 'Київ')
 print('Користувач:', user)

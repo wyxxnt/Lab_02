@@ -1,4 +1,4 @@
-name = 'Олександр'
+name = 'Кирило Кузнецов'
 birth_year = 2005
 
 def greeting(name):
